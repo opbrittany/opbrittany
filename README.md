@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @opbrittany
 - 👀 I’m interested in app design.
-- 🌱 I’m currently learning React-Native
 - 💞️ I’m looking to collaborate on Upwork
 - 📫 Reach me at my email opbrittany@gmail.com
 
