@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @opbrittany
 - 👀 I’m interested in app design.
-- 💞️ I’m looking to collaborate on Upwork
+- 💞️ I’m looking to collaborate
 - 📫 Reach me at my email opbrittany@gmail.com
 
 <!---
