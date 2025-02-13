@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+
+
+        <!-- meta tag for viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us</title>
+
+        
+        <!-- CSS for Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <!-- JQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- JavaScript for Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <!-- Put your own JavaScript, or a link to an external JS file, after this line -->
+
+        <!--stylesheet link-->
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function showBrowserSize() {
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+                document.getElementById("sizeInfo").innerHTML = "Width: " + w + "<br>Height: " + h;
+            }
+            </script>
+
+
+    </head>
+    <body onresize="showBrowserSize();" onload="showBrowserSize();">
+
+        <div id="container">
+
+            <header class="services"><!--Top Header-->  
+                
+                <div class="services"> <!-- start of dialogue -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                       <p>
+                       <h1 class="title">Contact Us</h1>
+                                     
+                       </p>
+                   </div>
+                </div><!--end of dialogue-->
+
+               
+            </header>
+
+            <nav><!--navigation-->
+            
+            <ul>
+
+                <li><a href="homescreen.html"> Home </a></li>
+
+                <li><a href="services.html">Services </a></li>
+                  
+                
+                  <li><a href="about.html">
+                    About Pet Sitters
+                  </a></li>
+
+                  <li><a href="contact.html">
+                    Contact Us 
+                  </a></li>
+                  
+                  <li> <a href="resources.html">
+                    Resources
+                  </a></li>
+
+                  
+            </ul>
+
+            </nav><!--end of navigation-->
+
+
+
+
+
+
+            <div id="flexible-box"><!--flex box-->
+        
+
+                
+
+                <article class="color"> <!--centered details-->
+                    <p id="sizeInfo" style="background-color: yellow;"> </p>
+
+
+                 <form>
+                
+                    <h2 class="contact">Contact Us</h2>
+                        <br>
+                        <p class="form">If you'd like us to reach out, please fill in the form below and we will contact you within 24 hours!</p>
+
+                    <!--Add an input type text for name-->
+
+                    <label for="fname">First Name</label>
+               
+                    <br>
+                   
+                    <input type="text" size="58" id="fname" placeholder="Enter your Name">
+                
+           
+                    <br>
+               <!--Add an input type text for email-->
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" size="58" id="email" placeholder="Enter your Email">
+                    <br>
+
+               <!--Add an input type text for phone number-->
+                    <label for="phonenumber">Phone Number</label>
+                   <br>
+                   <input type="text" size="58" id="phonenumber" placeholder="Enter your Phone Number">
+                   <br>
+
+               <!--Add an input type text for Description-->
+                   <!--Add Text Area here-->
+                   <label for="textarea">Please provide more details</label>
+                   <br>
+                    <textarea cols="48" rows="8" id="textarea"></textarea>
+                   <br>
+                   <br>
+                   <input type="reset" value="Clear">
+                   <input type="submit" value="Submit" onclick="alert('Thank you');">
+                   <br><br><br><br><br>
+               
+               </fieldset> 
+           </form>
+                        
+
+                </article>
+
+
+
+               
+
+            </div> <!--end of flexibl box-->
+
+            <footer>
+                <br>&copy; 2023 Pet Sitting LLC  |  1-800-3345043  |   <a href="credit.html" style="color:aqua;">
+                 Link to Credited  Images
+               </a>  <br> 
+                 
+                             
+             </footer>
+    </body>
+
+</html>
